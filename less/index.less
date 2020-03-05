@@ -57,7 +57,61 @@ html, body {
     height: 100%;
 }
 
-h1 {
+@sect1-back: blue;
+@sect2-back: gray;
+@sect1-font: white;
+@sect2-font: black;
+.my-sizez{
+	padding: 2px;
+	font-size: 20px;
+}
 	
+
+.image-size{
+	width: 200px;
+	height:200px;
+}
+header {
+
+	nav {
+		display: flex;
+		justify-content: space-around;
+
+		h1 {
+			
+			height:50px;
+			font-size: 30px;
+		}
+	}
+	
+}
+
+.intro {
+	h2{
+		margin-bottom: 10px;
+	}
+background: sect1-back;
+color:sect1-font;
+	img {
+		.image-size
+	}
+		p{.my-sizez;
+			
+		}
+
+}
+
+.skills {
+h2{
+	margin-bottom: 10px;
+}
+background: sect1-back;
+color:sect1-font;
+img {
+	.image-size
+}
+	p{.my-sizez;
+		
+	}
 
 }

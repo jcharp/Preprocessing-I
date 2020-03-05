@@ -134,3 +134,49 @@ html,
 body {
   height: 100%;
 }
+.my-sizez {
+  padding: 2px;
+  font-size: 20px;
+}
+.image-size {
+  width: 200px;
+  height: 200px;
+}
+header nav {
+  display: flex;
+  justify-content: space-around;
+}
+header nav h1 {
+  height: 50px;
+  font-size: 30px;
+}
+.intro {
+  background: sect1-back;
+  color: sect1-font;
+}
+.intro h2 {
+  margin-bottom: 10px;
+}
+.intro img {
+  width: 200px;
+  height: 200px;
+}
+.intro p {
+  padding: 2px;
+  font-size: 20px;
+}
+.skills {
+  background: sect1-back;
+  color: sect1-font;
+}
+.skills h2 {
+  margin-bottom: 10px;
+}
+.skills img {
+  width: 200px;
+  height: 200px;
+}
+.skills p {
+  padding: 2px;
+  font-size: 20px;
+}
