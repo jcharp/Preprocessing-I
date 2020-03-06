@@ -151,8 +151,8 @@ header nav h1 {
   font-size: 30px;
 }
 .intro {
-  background: sect1-back;
-  color: sect1-font;
+  background: blue;
+  color: white;
 }
 .intro h2 {
   margin-bottom: 10px;
@@ -161,13 +161,11 @@ header nav h1 {
   width: 200px;
   height: 200px;
 }
-.intro p {
+.skills {
+  background: gray;
+  color: black;
   padding: 2px;
   font-size: 20px;
-}
-.skills {
-  background: sect1-back;
-  color: sect1-font;
 }
 .skills h2 {
   margin-bottom: 10px;
@@ -179,4 +177,13 @@ header nav h1 {
 .skills p {
   padding: 2px;
   font-size: 20px;
+}
+.work {
+  background: blue;
+  color: white;
+  padding: 2px;
+  font-size: 20px;
+}
+.contact {
+  border: 1px solid black;
 }

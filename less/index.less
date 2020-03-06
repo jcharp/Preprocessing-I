@@ -57,10 +57,10 @@ html, body {
     height: 100%;
 }
 
-@sect1-back: blue;
-@sect2-back: gray;
-@sect1-font: white;
-@sect2-font: black;
+@sect1b: blue;
+@sect2b: gray;
+@sect1f: white;
+@sect2f: black;
 .my-sizez{
 	padding: 2px;
 	font-size: 20px;
@@ -87,31 +87,50 @@ header {
 }
 
 .intro {
+
+	background: @sect1b;
+	color: @sect1f;
 	h2{
 		margin-bottom: 10px;
 	}
-background: sect1-back;
-color:sect1-font;
+
+	img {
+		.image-size
+	}
+		
+			
+		}
+
+
+
+.skills {
+	
+	background: @sect2b;
+	color: @sect2f;
+	.my-sizez;
+h2{
+	margin-bottom: 10px;
+	}
+	
 	img {
 		.image-size
 	}
 		p{.my-sizez;
 			
-		}
-
-}
-
-.skills {
-h2{
-	margin-bottom: 10px;
-}
-background: sect1-back;
-color:sect1-font;
-img {
-	.image-size
-}
-	p{.my-sizez;
-		
 	}
 
 }
+
+.work {
+	background: @sect1b;
+	color: @sect1f;
+	.my-sizez;
+}
+
+
+.contact {
+border: 1px solid black;
+
+}
+
+
